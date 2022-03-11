@@ -29,8 +29,6 @@ Node* takeInput_Better(){
             //or
             //tail = newNode;
             }
-            temp -> next = newNode;
-        }
         cin>>data; // enter next node data again
     }
     return head;
@@ -44,26 +42,29 @@ void insertNode(Node *head , int i , int data){
         temp = temp->next;
         count++;
     }
+
     Node *a = temp -> next;
     temp -> next = newNode;
     newNode -> next = a;
 }
 
 void print(Node *head){
-    Node *temp = head;
-    while(temp != NULL){
-
-    cout<<temp -> data<<" ";
-    temp = temp -> next;
+    while(head != NULL){
+    cout<<head -> data<<" ";
+    head = head -> next;
     }
 }
 
 int main(){
+
     Node *head = takeInput_Better();
     print(head);
+    cout<<endl;
+    cout<<"Enter the data and the index at which u want data to be entered"<<endl;
     int i , data;
     cin >> i >> data;
     insertNode(head , i , data);
+    cout<<"New Linked List"<<endl;
     print(head);
     return 0;
 }
