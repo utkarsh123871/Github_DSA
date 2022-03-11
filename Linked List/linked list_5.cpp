@@ -26,7 +26,7 @@ Node* takeInput_Better(){
         else{
             tail -> next = newNode;
             tail = tail->next;
-            //or
+            //or you can use the below statement
             //tail = newNode;
             }
         cin>>data; // enter next node data again
@@ -67,5 +67,6 @@ int main(){
     cout<<"New Linked List"<<endl;
     print(head);
     return 0;
+
 }
 
