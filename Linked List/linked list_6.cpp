@@ -23,6 +23,7 @@ Node* insertEnd(Node* head, int data)
 	// If linked list is empty, create a
 	// new node (Assuming newNode() allocates
 	// a new node with given data)
+	// like this we can add a node to a linked list recursively
 	if (head == NULL)
 		return newNode(data);
 
