@@ -12,6 +12,7 @@ public:
         }
 };
 
+// this function is created to make input much better and in a easy way
 Node* takeInput_Better(){
     int data;
     cin >> data;
