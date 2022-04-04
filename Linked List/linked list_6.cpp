@@ -8,6 +8,7 @@ struct Node {
 };
 
 // Allocates a new node with given data
+// Allocates a new node with given address in next
 Node *newNode(int data)
 {
 	Node *new_node = new Node;
