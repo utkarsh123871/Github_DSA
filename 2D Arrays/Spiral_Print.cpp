@@ -21,16 +21,20 @@ void spiralprint(int a[][100] , int n , int m){
         ec--;
         
         //3. Print er from ec to sc , er--
-        for (int col = ec ; col >= sc ; col--) {
-            std::cout << a[er][col] << " ";
+        if(sr<er){
+            for (int col = ec ; col >= sc ; col--) {
+                std::cout << a[er][col] << " ";
+            }
+            er--;
         }
-        er--;
         
         //4. Print sc from er to sr , sc++
-        for (int row = er ; row >= sr ; row--) {
-            std::cout << a[row][sc] << " ";
+        if(sr < er){
+            for (int row = er ; row >= sr ; row--) {
+                std::cout << a[row][sc] << " ";
+            }
+            sc++;
         }
-        sc++;
     }
     cout<<endl;
 }
