@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+// node class which contains next of node type only
 class node{
 public:
     int data;
