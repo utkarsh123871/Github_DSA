@@ -14,7 +14,7 @@ public:
 };
 
 // Functions (Procedural Programming)
-//passing a pointer by reference
+//passing a pointer by reference to get changes in main also
 void insertathead(node* &head , int d){
     if(head == NULL){
         head = new node(d);
