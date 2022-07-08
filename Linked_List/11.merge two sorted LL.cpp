@@ -101,7 +101,7 @@ node* kth_element_from_end(node*&head , int k){
     return slow;
 }
 
-//merging LL function
+//merging LL function using merge fucntion
 node* merge(node*a , node*b){
     //base case
     if(a==NULL){
