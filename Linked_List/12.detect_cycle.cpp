@@ -44,6 +44,7 @@ node* take_input(){
     return head;
 }
 
+// printing the linked list
 ostream& operator<<(ostream &os , node* head){
     print(head);
     return os;
