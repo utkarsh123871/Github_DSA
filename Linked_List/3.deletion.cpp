@@ -125,7 +125,7 @@ void deletemiddle(node* head, int data)
     }
 }
 
-
+//main function
 int main()
 {
     node* head = NULL;
