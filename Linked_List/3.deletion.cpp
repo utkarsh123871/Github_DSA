@@ -26,6 +26,7 @@ void insertathead(node* &head , int d){
     head = n;
 }
 
+// this will add elements in the exact order
 void insertattail(node*&head , int data){
     if(head==NULL){
         head = new node(data);
