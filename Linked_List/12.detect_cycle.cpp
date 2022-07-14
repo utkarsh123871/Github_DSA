@@ -127,7 +127,7 @@ node* merge(node*a , node*b){
     
     return c;
 }
-
+//******************** main thing to detect is the cycle
 bool detectcycle(node* head){
     node* slow = head;
     node* fast = head;
