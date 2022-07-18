@@ -14,7 +14,7 @@ void insert(stack<int>&s , int element){
     s.push(temp);
 }
 
-void reverse(stack<int>&s){
+void reverse(stack<int>&s){ 
     if(s.size()==1 or s.size()==0){
         return;
     }
