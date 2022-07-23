@@ -3,7 +3,7 @@
 using namespace std;
 
 vector<long long> nearest_small_left(long long* arr , long long n){
-    vector<long long> left;          // NSL
+    vector<long long> left;          // NSL vector
     long long pseudo_index = -1;
     stack <pair<long long , long long>> l; // height , index
     
