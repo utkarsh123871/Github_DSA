@@ -25,7 +25,7 @@ public:
 
 
 void PrintBinaryTree(BinaryNodeTree<int>* root){
-    // base case
+    // base case if root is null
     if(root == NULL){
         return;
     }
