@@ -27,7 +27,7 @@ int main()
     }
     cout<<endl;
     cout<<"After removeDuplicates ";
-    vector<int> output = removeDuplicates(a,11);
+    vector<int> output = removeDuplicates(a,11); //11 is the size 
     for (int i = 0; i < output.size() ; i++) {
         cout << output[i] << " ";
     }
