@@ -1,6 +1,6 @@
 //algorithms of binary_search 
 //Condition of algorithm: Array should be sorted
-#include <iostream>
+#include <iostream> 
 #include <algorithm>
 
 using namespace std;
@@ -21,7 +21,7 @@ int main()
     }
     
     else{
-        std::cout << "Key is not present" << std::endl;
+        std::cout << "Key is not present" << std::endl; //
     }
     return 0;
 }
