@@ -6,12 +6,12 @@ using namespace std;
 int main() {
     
     int arr[] = {5 , 4 , 7 , 6 , 0 , 1};
-    int n = sizeof(arr)/sizeof(arr[0]);
+    int n = sizeof(arr)/sizeof(arr[0]);  
     
-    int key;
+    int key;  
     cin>>key;
     
-    int *ans = find(arr , arr+n , key);
+    int *ans = find(arr , arr+n , key); // stl
     
     int index = ans - arr;  // this will return the index at which ans is present 
                           // subtracting the address gives us the index of ans address bucket
