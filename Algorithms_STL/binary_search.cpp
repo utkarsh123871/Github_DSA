@@ -21,6 +21,7 @@ int main()
     }
     
     else{
+// if not present           
         std::cout << "Key is not present" << std::endl; //
     }
     return 0;
