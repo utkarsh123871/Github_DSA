@@ -3,12 +3,12 @@
 #include <iostream> 
 #include <algorithm>
 
-using namespace std;
+using namespace std; 
 
 int main()
 {
     int arr[] = {1,2,3,4,5,6,7,8,9,10};
-    int n = sizeof(arr)/sizeof(arr[0]);
+    int n = sizeof(arr)/sizeof(arr[1]);
     
     int key;
     std::cout << "Enter the key you want to search in array" << std::endl;
